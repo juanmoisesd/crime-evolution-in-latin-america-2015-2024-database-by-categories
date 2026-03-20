@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this dataset using the metadata below."
+type: dataset
+title: "Crime Evolution in Latin America 2015-2024: Database by Categories"
+authors:
+  - family-names: "de la Serna Tuya"
+    given-names: "Juan Moisés"
+    orcid: "https://orcid.org/0000-0002-8401-8018"
+    affiliation: "Universidad Internacional de La Rioja (UNIR)"
+doi: "10.5281/zenodo.18880580"
+url: "https://doi.org/10.5281/zenodo.18880580"
+repository-code: "https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories"
+license: CC0-1.0
+date-released: "2026-03-05"
+keywords:
+  - "Latin America"
+  - "crime"
+  - "homicides"
+  - "drug trafficking"
