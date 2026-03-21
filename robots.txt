@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://juanmoisesd.github.io/crime-evolution-in-latin-america-2015-2024-database-by-categories/sitemap.xml
+
+# Research dataset by Juan Moisés de la Serna Tuya
+# ORCID: 0000-0002-8401-8018
+# https://www.linkedin.com/in/juanmoisesdelaserna/
+# Universidad Internacional de La Rioja (UNIR)
