@@ -1,136 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Crime Evolution in Latin America 2015-2024: Database by Categories</title>
-<meta name="description" content="Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Proseg">
-<meta name="keywords" content="Latin America,crime,homicides,drug trafficking">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#1a1a2e;color:#e0e0e0;line-height:1.6}
-nav{background:#16213e;padding:10px 20px;display:flex;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.4)}
-nav a{color:#a0b4c8;text-decoration:none;font-size:12px;padding:4px 10px;border-radius:4px}
-nav a:hover{background:#0f3460;color:#fff}
-.hero{background:linear-gradient(135deg,#16213e,#0f3460);padding:48px 24px;text-align:center}
-.hero h1{font-size:clamp(16px,2.5vw,26px);color:#fff;margin-bottom:12px;max-width:800px;margin-left:auto;margin-right:auto}
-.hero p{color:#a0b4c8;max-width:700px;margin:0 auto 20px;font-size:13px}
-.badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:bold;margin:3px;text-decoration:none}
-.doi{background:#2980b9;color:#fff}.orcid{background:#a6ce39;color:#333}.cc0{background:#555;color:#fff}
-.container{max-width:1100px;margin:0 auto;padding:28px 20px}
-.sec{margin-bottom:44px}
-.sec h2{font-size:17px;color:#3498db;margin-bottom:14px;border-bottom:1px solid #2c3e50;padding-bottom:6px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:20px}
-.card{background:#16213e;border-radius:8px;padding:18px;border-left:3px solid #3498db}
-.card .num{font-size:26px;font-weight:bold;color:#3498db}
-.card .lbl{font-size:11px;color:#7f8c8d;margin-top:4px}
-.chart-box{background:#16213e;border-radius:8px;padding:18px;margin-bottom:16px}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
-.tag{background:#0f3460;color:#a0b4c8;padding:3px 9px;border-radius:10px;font-size:11px}
-.qs{list-style:none}
-.qs li{background:#16213e;border-radius:6px;padding:10px 14px;margin-bottom:7px;border-left:3px solid #e67e22;font-size:13px}
-.cite{background:#16213e;border-radius:8px;padding:18px;font-family:monospace;font-size:11px;line-height:1.9;color:#a0b4c8;border:1px solid #2c3e50;overflow-x:auto}
-.btn{display:inline-block;background:#3498db;color:#fff;padding:9px 18px;border-radius:5px;text-decoration:none;font-size:13px;margin:3px}
-.btn.green{background:#27ae60}
-footer{background:#16213e;padding:20px;text-align:center;font-size:11px;color:#7f8c8d;margin-top:32px}
-footer a{color:#3498db}
-</style>
-</head>
-<body>
-<nav>
-  <a href="#overview">Overview</a>
-  <a href="#findings">Findings</a>
-  <a href="#charts">Charts</a>
-  <a href="#questions">Questions</a>
-  <a href="#download">Download</a>
-  <a href="#citation">Citation</a>
-</nav>
-<div class="hero">
-  <h1>Crime Evolution in Latin America 2015-2024: Database by Categories</h1>
-  <p>Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ records organized by 8 categories: (</p>
-  <a href="https://doi.org/10.5281/zenodo.18880580" class="badge doi">DOI: 10.5281/zenodo.18880580</a>
-  <a href="https://orcid.org/0000-0002-8401-8018" class="badge orcid">ORCID 0000-0002-8401-8018</a>
-  <span class="badge cc0">CC0 1.0</span>
-</div>
-<div class="container">
-  <div class="sec" id="overview">
-    <h2>📋 Dataset Overview</h2>
-    <p style="font-size:14px">Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ records organized by 8 categories: (1) Homicides: rates per 100,000 inhabitants for Mexico, Brazil, Venezuela, Honduras, El Salvador, Guatemala, Peru, Argentina, Chile, Uruguay, Colombia, Ecuador, Costa Rica and Bolivia. (2) Femicides: reported cases. (3) </p>
-    <div class="tags"><span class="tag">Latin America</span><span class="tag">crime</span><span class="tag">homicides</span><span class="tag">drug trafficking</span></div>
-  </div>
-  <div class="sec" id="findings">
-    <h2>📊 Key Indicators</h2>
-    <div class="cards">
-      <div class="card"><div class="num">Zenodo</div><div class="lbl">Platform</div></div>
-      <div class="card"><div class="num">2026</div><div class="lbl">Published</div></div>
-      <div class="card"><div class="num">CC0</div><div class="lbl">Open access</div></div>
-    </div>
-  </div>
-  <div class="sec" id="charts">
-    <h2>📈 Visualization</h2>
-    <div class="chart-box"><canvas id="c1" height="90"></canvas></div>
-  </div>
-  <div class="sec" id="questions">
-    <h2>❓ Research Questions</h2>
-    <ul class="qs">
-      <li>What are the main temporal trends in the data?</li>
-      <li>Are there significant differences between groups or regions?</li>
-      <li>Which variables show the highest variance over the analyzed period?</li>
-      <li>How are the main indicators correlated with each other?</li>
-      <li>What policy implications emerge from this data?</li>
-      <li>What factors best explain the observed variation?</li>
-    </ul>
-  </div>
-  <div class="sec" id="download">
-    <h2>⬇️ Access & Download</h2>
-    <a href="https://doi.org/10.5281/zenodo.18880580" class="btn">Download from Zenodo</a>
-    <a href="https://doi.org/10.5281/zenodo.18880580" class="btn green">View metadata</a>
-  </div>
-  <div class="sec" id="citation">
-    <h2>📄 How to Cite</h2>
-    <div class="cite">de la Serna Tuya, J.M. (2026). Crime Evolution in Latin America 2015-2024: Database by Categories. Zenodo. https://doi.org/10.5281/zenodo.18880580
-
-@misc{serna_2026,
-  author    = {de la Serna Tuya, Juan Moisés},
-  title     = {Crime Evolution in Latin America 2015-2024: Database by Cate},
-  year      = {2026},
-  doi       = {10.5281/zenodo.18880580},
-  url       = {https://doi.org/10.5281/zenodo.18880580},
-  publisher = {Zenodo},
-  note      = {CC0 1.0}
-}</div>
-  </div>
-</div>
-<footer>
-  <strong>Juan Moisés de la Serna Tuya</strong> · Universidad Internacional de La Rioja (UNIR)<br>
-  <a href="https://juanmoisesdelaserna.es">juanmoisesdelaserna.es</a> ·
-  <a href="https://orcid.org/0000-0002-8401-8018">ORCID 0000-0002-8401-8018</a> ·
-  <a href="https://doi.org/10.5281/zenodo.18880580">DOI 10.5281/zenodo.18880580</a> · CC0 1.0
-</footer>
-<script>
-new Chart(document.getElementById('c1'),{
-  type:'bar',
-  data:{
-    labels:["Latin America", "crime", "homicides", "drug trafficking"],
-    datasets:[{
-      label:'Indicators',
-      data:[20.0, 36.2, 54.8, 75.8],
-      backgroundColor:['#3498db','#e74c3c','#2ecc71','#f39c12','#9b59b6'],
-      borderRadius:4
-    }]
-  },
-  options:{
-    responsive:true,
-    plugins:{
-      legend:{labels:{color:'#e0e0e0'}},
-      title:{display:true,text:'Main variables',color:'#e0e0e0'}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record">
+  <meta name="author" content="Juan Moisés de la Serna Tuya">
+  <meta name="keywords" content="cc0, crime, dataset, drug-trafficking, homicides, latin-america, open-data, zenodo, open-data, dataset, fair-data, zenodo, orcid, juan moises de la serna, neuroeconomics, latin america">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="dataset">
+  <meta property="og:title" content="crime-evolution-in-latin-america-2015-2024-database-by-categories">
+  <meta property="og:description" content="Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record">
+  <meta property="og:url" content="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories">
+  <meta property="og:site_name" content="Juan Moisés de la Serna Tuya — Open Research">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="crime-evolution-in-latin-america-2015-2024-database-by-categories">
+  <meta name="twitter:description" content="Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record">
+  <link rel="canonical" href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories">
+  <title>crime-evolution-in-latin-america-2015-2024-database-by-categories | Juan Moisés de la Serna Tuya</title>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "crime-evolution-in-latin-america-2015-2024-database-by-categories",
+    "description": "Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record",
+    "url": "https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories",
+    "sameAs": "https://juanmoisesd.github.io/crime-evolution-in-latin-america-2015-2024-database-by-categories/",
+    "identifier": "https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "isAccessibleForFree": true,
+    "keywords": ["cc0", "crime", "dataset", "drug-trafficking", "homicides", "latin-america", "open-data", "zenodo"],
+    "creator": {
+      "@type": "Person",
+      "name": "Juan Moisés de la Serna Tuya",
+      "identifier": "https://orcid.org/0000-0002-8401-8018",
+      "sameAs": [
+        "https://orcid.org/0000-0002-8401-8018",
+        "https://www.linkedin.com/in/juanmoisesdelaserna/",
+        "https://www.scopus.com/authid/detail.uri?authorId=26632846700",
+        "https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya",
+        "https://github.com/juanmoisesd"
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universidad Internacional de La Rioja (UNIR)"
+      }
     },
-    scales:{
-      x:{ticks:{color:'#a0b4c8'},grid:{color:'#2c3e50'}},
-      y:{ticks:{color:'#a0b4c8'},grid:{color:'#2c3e50'}}
+    "publisher": {
+      "@type": "Organization",
+      "name": "GitHub",
+      "url": "https://github.com"
+    },
+    "datePublished": "2025",
+    "dateModified": "2025",
+    "inLanguage": ["es", "en"],
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories"
     }
   }
-});
-</script>
-</body></html>
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 860px; margin: 0 auto; padding: 2rem; color: #24292e; }
+    header { border-bottom: 3px solid #0366d6; padding-bottom: 1.5rem; margin-bottom: 2rem; }
+    h1 { color: #0366d6; font-size: 1.8rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+    .badges img { height: 20px; }
+    .author-card { background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
+    .author-card h2 { color: #0366d6; margin-top: 0; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    th, td { border: 1px solid #e1e4e8; padding: 0.5rem 1rem; text-align: left; }
+    th { background: #f6f8fa; }
+    .citation-block { background: #fff8c5; border: 1px solid #f0e68c; border-radius: 6px; padding: 1rem 1.5rem; margin: 1rem 0; }
+    pre { background: #f6f8fa; padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem; }
+    a { color: #0366d6; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e1e4e8; font-size: 0.85rem; color: #586069; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📂 crime-evolution-in-latin-america-2015-2024-database-by-categories</h1>
+  <p>Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record</p>
+  <div class="badges">
+    <a href="https://orcid.org/0000-0002-8401-8018"><img src="https://img.shields.io/badge/ORCID-0000--0002--8401--8018-green?logo=orcid" alt="ORCID"></a>
+    <a href="https://www.linkedin.com/in/juanmoisesdelaserna/"><img src="https://img.shields.io/badge/LinkedIn-juanmoisesdelaserna-blue?logo=linkedin" alt="LinkedIn"></a>
+    <a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories"><img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub"></a>
+    <img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey" alt="CC0">
+    <img src="https://img.shields.io/badge/Data-FAIR_Compliant-brightgreen" alt="FAIR">
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>📋 About This Dataset</h2>
+    <p>Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record</p>
+    <p><strong>Topics:</strong> cc0, crime, dataset, drug-trafficking, homicides, latin-america, open-data, zenodo</p>
+    <p><a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories" target="_blank">→ View on GitHub</a> | <a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories/blob/main/README.md" target="_blank">→ README</a> | <a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories/blob/main/GLOSSARY.md" target="_blank">→ Glossary</a></p>
+  </section>
+
+  <div class="author-card">
+    <h2>👤 About the Author</h2>
+    <p><strong>Juan Moisés de la Serna Tuya</strong><br>
+    <em>Neuroeconomista forense de élite | IA antifraude + sesgos en decisiones económicas | Gobiernos · Bancos centrales · Big Four · Fortune 500</em></p>
+    <table>
+      <tr><th>Identifier</th><th>Link</th></tr>
+      <tr><td>ORCID</td><td><a href="https://orcid.org/0000-0002-8401-8018">0000-0002-8401-8018</a></td></tr>
+      <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/juanmoisesdelaserna/">juanmoisesdelaserna</a></td></tr>
+      <tr><td>Scopus</td><td><a href="https://www.scopus.com/authid/detail.uri?authorId=26632846700">26632846700</a></td></tr>
+      <tr><td>ResearcherID</td><td><a href="https://www.webofscience.com/wos/author/record/M-8296-2019">M-8296-2019</a></td></tr>
+      <tr><td>ResearchGate</td><td><a href="https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya">Profile</a></td></tr>
+      <tr><td>Institution</td><td><a href="https://www.unir.net">Universidad Internacional de La Rioja (UNIR)</a></td></tr>
+    </table>
+    <p>290+ scientific works · 500+ DOIs · 90+ open datasets · Top 1% Academia.edu</p>
+  </div>
+
+  <section>
+    <h2>📚 Cite This Dataset</h2>
+    <div class="citation-block">
+      <strong>APA 7:</strong><br>
+      De la Serna Tuya, J. M. (2025). <em>crime-evolution-in-latin-america-2015-2024-database-by-categories</em> [Dataset]. GitHub. https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories
+    </div>
+    <pre>@dataset{delaserna2025_crime_evolution_in_latin_,
+  author    = {De la Serna Tuya, Juan Moisés},
+  title     = {crime-evolution-in-latin-america-2015-2024-database-by-categories},
+  year      = {2025},
+  publisher = {GitHub},
+  url       = {https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories},
+  note      = {ORCID: 0000-0002-8401-8018}
+}</pre>
+  </section>
+
+  <section>
+    <h2>🔗 All Research Repositories</h2>
+    <p>Explore the full collection of 71+ open research datasets:<br>
+    <a href="https://github.com/juanmoisesd" target="_blank">→ github.com/juanmoisesd</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Juan Moisés de la Serna Tuya · <a href="https://orcid.org/0000-0002-8401-8018">ORCID: 0000-0002-8401-8018</a> · License: <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></p>
+  <p><a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories/blob/main/ABOUT_THE_AUTHOR.md">About the Author</a> · <a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories/blob/main/GLOSSARY.md">Glossary</a> · <a href="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories/blob/main/CITATION_GUIDE.md">Citation Guide</a></p>
+</footer>
+
+</body>
+</html>
