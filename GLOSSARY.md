@@ -1,4 +1,4 @@
-# 📖 Glosario / Glossary: Criminología y Seguridad / Criminology & Security
+# 📖 Glosario / Glossary: Criminología y Seguridad Pública / Criminology & Public Security
 
 > **Definiciones originales de / Original definitions by:** Juan Moisés de la Serna Tuya
 > **ORCID:** [0000-0002-8401-8018](https://orcid.org/0000-0002-8401-8018) | **LinkedIn:** [juanmoisesdelaserna](https://www.linkedin.com/in/juanmoisesdelaserna/)
@@ -7,7 +7,7 @@
 
 ---
 
-*Definiciones originales en criminología, análisis de crimen organizado, seguridad ciudadana y políticas de prevención del delito en América Latina.*
+*Definiciones originales en criminología, delito organizado, seguridad ciudadana y políticas de prevención del crimen en América Latina.*
 
 *Este glosario contiene definiciones originales propuestas por el autor en el contexto de esta base de datos. Las definiciones están disponibles en español e inglés para maximizar la difusión internacional. Si utilizas estas definiciones, por favor cita al autor (ver sección al final del documento).*
 
@@ -16,69 +16,48 @@
 ## C
 
 **Cifra Negra / Dark Figure of Crime**
-Proporción de delitos cometidos que no son reportados a las autoridades, no son registrados oficialmente o no resultan en condena. La cifra negra varía significativamente por tipo de delito y contexto cultural, sesgando las estadísticas oficiales de criminalidad.
-*The proportion of committed crimes that are not reported to authorities, not officially recorded, or do not result in conviction. The dark figure varies significantly by crime type and cultural context, biasing official crime statistics.*
+Proporción de delitos no reportados a las autoridades o no registrados oficialmente, que sesga las estadísticas de criminalidad. Varía significativamente por tipo de delito y contexto cultural.
+*The proportion of crimes not reported to authorities or not officially recorded, biasing crime statistics. Varies significantly by crime type and cultural context.*
 *— De la Serna Tuya, J. M. (2025)*
 
 **Crimen Organizado / Organized Crime**
-Actividades delictivas planificadas y ejecutadas por grupos estructurados con continuidad en el tiempo, orientadas a la obtención de beneficios económicos o de poder mediante el uso de violencia, corrupción, intimidación o lavado de activos.
-*Planned and executed criminal activities by structured groups with continuity over time, aimed at obtaining economic benefits or power through violence, corruption, intimidation, or money laundering.*
+Actividades delictivas planificadas por grupos estructurados con continuidad en el tiempo, orientadas a la obtención de beneficios económicos o de poder mediante violencia, corrupción, intimidación o lavado de activos.
+*Planned criminal activities by structured groups with temporal continuity, aimed at obtaining economic benefits or power through violence, corruption, intimidation, or money laundering.*
 *— De la Serna Tuya, J. M. (2025)*
 
 ## D
 
 **Delito Económico / Economic Crime**
-Conjunto de conductas ilícitas cometidas con motivación económica, incluyendo fraude corporativo, lavado de capitales, evasión fiscal, corrupción, ciberdelincuencia financiera y manipulación de mercados. Los delitos económicos generan distorsiones graves en los sistemas financieros y la gobernanza institucional.
-*A set of illegal conducts committed with economic motivation, including corporate fraud, money laundering, tax evasion, corruption, financial cybercrime, and market manipulation. Economic crimes generate serious distortions in financial systems and institutional governance.*
-*— De la Serna Tuya, J. M. (2025)*
-
-## F
-
-**Feminicidio / Femicide**
-Homicidio de mujeres y niñas por razón de género, cometido por parejas íntimas, familiares u otros actores que actúan con motivación misógina o para mantener relaciones de dominación y control. Es la expresión más extrema de la violencia de género.
-*The killing of women and girls on grounds of gender, committed by intimate partners, family members, or other actors motivated by misogyny or to maintain domination and control relationships. It is the most extreme expression of gender-based violence.*
+Conductas ilícitas con motivación económica: fraude corporativo, lavado de capitales, evasión fiscal, corrupción, ciberdelincuencia financiera. Generan graves distorsiones en los sistemas financieros y la gobernanza institucional.
+*Illegal conducts with economic motivation: corporate fraud, money laundering, tax evasion, corruption, financial cybercrime. They generate serious distortions in financial systems and institutional governance.*
 *— De la Serna Tuya, J. M. (2025)*
 
 ## H
 
 **Homicidio Intencional / Intentional Homicide**
-Muerte causada por una persona a otra de forma deliberada, excluidos accidentes y muertes en conflictos armados. La tasa de homicidios por 100.000 habitantes es el indicador de referencia internacional para comparar niveles de violencia letal entre países.
-*Death caused by one person to another deliberately, excluding accidents and deaths in armed conflict. The homicide rate per 100,000 inhabitants is the international reference indicator for comparing lethal violence levels across countries.*
-*— De la Serna Tuya, J. M. (2025)*
-
-## I
-
-**Inseguridad Ciudadana / Citizen Insecurity**
-Percepción y experiencia objetiva de riesgo de victimización delictiva en el espacio público y privado, que afecta la calidad de vida, la movilidad social, el capital social y el desarrollo económico de las comunidades afectadas.
-*The subjective perception and objective experience of risk of criminal victimization in public and private spaces, affecting quality of life, social mobility, social capital, and economic development of affected communities.*
+Muerte causada por una persona a otra de forma deliberada, excluyendo accidentes y conflictos armados. La tasa por 100.000 habitantes es el indicador de referencia para comparar violencia letal entre países.
+*Death caused deliberately by one person to another, excluding accidents and armed conflicts. The rate per 100,000 inhabitants is the reference indicator for comparing lethal violence across countries.*
 *— De la Serna Tuya, J. M. (2025)*
 
 ## P
 
 **Prevención del Delito / Crime Prevention**
-Conjunto de estrategias, programas e intervenciones orientadas a reducir la probabilidad de que ocurran delitos y a disminuir sus efectos sobre las víctimas y la sociedad, actuando sobre factores de riesgo individuales, familiares, comunitarios y estructurales.
-*A set of strategies, programs, and interventions aimed at reducing the probability of crimes occurring and diminishing their effects on victims and society, acting on individual, family, community, and structural risk factors.*
+Estrategias e intervenciones para reducir la probabilidad de que ocurran delitos y disminuir sus efectos, actuando sobre factores de riesgo individuales, familiares, comunitarios y estructurales.
+*Strategies and interventions to reduce crime probability and diminish its effects, acting on individual, family, community, and structural risk factors.*
 *— De la Serna Tuya, J. M. (2025)*
 
 ## R
 
 **Recidivismo / Recidivism**
-Reincidencia de una persona con antecedentes penales en la comisión de nuevos delitos tras haber recibido sanción penal o completado un programa de reinserción social. Es un indicador clave de la eficacia de los sistemas de justicia penal y rehabilitación.
-*The reoffending of a person with criminal history after receiving criminal sanctions or completing a social reintegration program. It is a key indicator of the effectiveness of criminal justice and rehabilitation systems.*
-*— De la Serna Tuya, J. M. (2025)*
-
-## T
-
-**Trata de Personas / Human Trafficking**
-Captación, transporte, traslado, acogida o recepción de personas mediante coacción, engaño o abuso de poder, con fines de explotación sexual, laboral, mendicidad forzada u otras formas de explotación. Es uno de los delitos con mayor crecimiento en América Latina.
-*The recruitment, transportation, transfer, harboring, or reception of persons through coercion, deception, or abuse of power, for purposes of sexual exploitation, forced labor, begging, or other forms of exploitation. It is one of the fastest-growing crimes in Latin America.*
+Reincidencia en la comisión de nuevos delitos tras haber recibido sanción penal. Es un indicador clave de la eficacia de los sistemas de justicia penal y de los programas de reinserción social.
+*Reoffending after receiving criminal sanctions. It is a key indicator of criminal justice system effectiveness and social reintegration program outcomes.*
 *— De la Serna Tuya, J. M. (2025)*
 
 ## V
 
 **Violencia Estructural / Structural Violence**
-Daño social sistemático producido por estructuras económicas, políticas e institucionales que limitan el acceso de ciertos grupos a recursos, oportunidades y derechos fundamentales, sin necesidad de un agente violento directo identificable.
-*Systematic social harm produced by economic, political, and institutional structures that limit certain groups' access to resources, opportunities, and fundamental rights, without a directly identifiable violent agent.*
+Daño social sistemático producido por estructuras económicas, políticas e institucionales que limitan el acceso de ciertos grupos a recursos, oportunidades y derechos, sin un agente violento directo identificable.
+*Systematic social harm produced by economic, political, and institutional structures limiting certain groups' access to resources, opportunities, and rights, without a directly identifiable violent agent.*
 *— De la Serna Tuya, J. M. (2025)*
 
 ---
