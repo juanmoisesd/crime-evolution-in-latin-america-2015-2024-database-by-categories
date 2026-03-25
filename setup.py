@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+setup(
+    name="crime-evolution-in-latin-america-2015-2024-database-by-categories",
+    version="1.0.0",
+    description="Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, c",
+    author="de la Serna, Juan Moisés",
+    url="https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories",
+    packages=find_packages(),
+    install_requires=["pandas>=1.3.0","requests>=2.26.0"],
+    python_requires=">=3.7",
+    classifiers=["Programming Language :: Python :: 3","License :: OSI Approved :: MIT License","Topic :: Scientific/Engineering"],
+    keywords="cc0, citation, crime, crime-data, criminology, dataset, drug-trafficking, fair-data, homicides, iberoamerica, juan-moises-de-la-serna, latam, latin-america, open-data, open-science, orcid, research, security, zenodo, zenodo, open-data",
+)
