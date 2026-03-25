@@ -1,0 +1,23 @@
+{
+  "title": "Database on the evolution of crime in Latin America and the Caribbean during the",
+  "id": "juanmoisesd/crime-evolution-in-latin-america-2015-2024-databas",
+  "licenses": [
+    {
+      "name": "CC BY 4.0"
+    }
+  ],
+  "keywords": [
+    "cc0",
+    "citation",
+    "crime",
+    "crime-data",
+    "criminology",
+    "dataset",
+    "drug-trafficking",
+    "fair-data",
+    "homicides",
+    "iberoamerica"
+  ],
+  "description": "Database on the evolution of crime in Latin America and the Caribbean during the period 2015-2024, compiled from secondary sources (UNODC, InSight Crime, Prosegur Research, World Bank, ECLAC, UN Women and Infosegura). The dataset includes 230+ record\n\nDOI: https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories\nGitHub: https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories\nAuthor: de la Serna, Juan Moisés",
+  "isPrivate": false
+}
