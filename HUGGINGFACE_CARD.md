@@ -33,21 +33,16 @@ tags:
 
 # Database on the evolution of crime in Latin America and the Caribbean during the
 
-- **DOI:** [https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories](https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories)
-- **GitHub:** [juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories](https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories)
-- **License:** CC BY 4.0
-- **Author:** de la Serna, Juan Moisés
+**DOI:** [https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories](https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories) | **GitHub:** [juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories](https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories) | **License:** CC BY 4.0
 
-## Load
-
+## Quick load
 ```python
 import pandas as pd
-# See Zenodo for actual filenames
-df = pd.read_csv("https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories/files/data.csv")
+# See https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories for file listing
+df = pd.read_csv("URL_FROM_ZENODO")
 ```
 
-## Citation
-
+## Cite
 ```bibtex
 @dataset{delaserna2025,author={de la Serna, Juan Moisés},title={Database on the evolution of crime in Latin America and the },year={2025},doi={https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories},url={https://github.com/juanmoisesd/crime-evolution-in-latin-america-2015-2024-database-by-categories}}
 ```
